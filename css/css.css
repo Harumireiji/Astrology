@@ -1,7 +1,7 @@
 :root {
-  --violet: #6C73E8;
-  --purple: #7C79F9;
-  --blue: #7197E8;
+  --bgViolet: #6C73E8;
+  --bgPurple: #7C79F9;
+  --bgBlue: #7197E8;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -16,7 +16,7 @@ html, body {
   font-family: 'Helvetica';
 }
 
-h1 {
+section h1 {
   font-size: 28px;
   color: white;
   text-transform: uppercase;
@@ -64,7 +64,7 @@ section.gameplay, section.artist, section.download {
   word-spacing: 10px;
 }
 
-#gameplay {background-color: #7197E8;}
+#gameplay {background:var(--bgPurple);}
 #download {background-color: #6C73E8;}
 
 .intro {height: 45vh; background-color: #fff; border: 1px solid grey; margin: 0 auto; display: inline-block;}
@@ -86,20 +86,16 @@ footer p {
   margin: 0;
 }
 
-/**COLS**/
-
-.col-1 {width: 8.333333%;}
-.col-2 {width: 16.666667%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.333333%;}
-.col-5 {width: 41.666667%;}
-.col-6 {width: 48%; padding:1% ; margin:0 auto;}
-.col-7 {width: 58.333333%;}
-.col-8 {width: 66.666667%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.333333%;}
-.col-11 {width: 91.666667%;}
-.col-12 {width: 100%;}
+.service-icon {
+  background-color: white;
+  color: violet;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
 
 @media screen and (max-width:769px) {
   .col-6 {width: 100%;}
