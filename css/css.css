@@ -112,6 +112,12 @@ footer ul {list-style-type: none; letter-spacing: 50px;}
 
 .card-text {font-size: 11px; text-align: justify;}
 
+/*PAGE BLOG*/
+
+.description h1 {font-size: 35px; font-family: 'Baloo Bhai', sans-serif; text-transform: uppercase; text-align: center;}
+.description img, #blog img {opacity: 0.5; transition: 1s ease-in;}
+.description img:hover, #blog img:hover {opacity:1.0; transition: 0.2s ease-in;}
+
 /*LOG IN SIGN UP*/
 
 .login {border: 2px solid rgba(0,0,0,0.1); height: 285px; margin-top: 5vh; font-size: 11px;}
